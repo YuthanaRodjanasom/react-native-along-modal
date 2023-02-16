@@ -99,25 +99,7 @@ export default () => {
       <Button onPress={exampleModalType}>Modal Basic Type</Button>
 
       <Button onPress={exampleModalType2}>Modal Type prompt chauy</Button>
-      <View style={{position: 'relative'}}>
-        <View
-          style={{
-            width: 300,
-            height: 300,
-            backgroundColor: 'red',
-            zIndex: 0,
-          }}></View>
-        <View
-          style={{
-            borderColor: 'green',
-            padding: 50,
-            borderWidth: 2,
-            width: 20,
-            zIndex: 1,
-            position: 'absolute',
-            backgroundColor: 'transparent',
-          }}></View>
-      </View>
+      
     </View>
   );
 };
