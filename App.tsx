@@ -1,8 +1,8 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import AlongModal from './src/compoents/AlongModal'
-import AlongProvider from "./src/compoents/AlongProvider";
-import Example from "./src/compoents/Example";
+import AlongModal from './src/components/AlongModal'
+import AlongProvider from "./src/components/AlongProvider";
+import Example from "./src/components/Example";
 
 
 const App = () => {
