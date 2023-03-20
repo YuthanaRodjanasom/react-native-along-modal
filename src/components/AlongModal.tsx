@@ -6,10 +6,6 @@ import AlongAction from '../atom/AlongAction';
 import {useRecoilValue} from 'recoil';
 import LinearGradient from 'react-native-linear-gradient';
 
-import SuccessIcon from '../assets/svg/SuccessIcon';
-import WarningIcon from '../assets/svg/WarningIcon';
-import ErrorIcon from '../assets/svg/ErrorIcon';
-
 export type AlongModalProps = {
   textHeaderStyle?: TextStyle;
   textInfoStyle?: TextStyle;
@@ -48,7 +44,7 @@ const AlongModal = (props: AlongModalProps) => {
     } else if (modal.type !== 'hidden') {
       return (
         <View style={styles.modal_frame}>
-          <WarningIcon />
+          {/* <WarningIcon /> */}
         </View>
       );
     } else {
